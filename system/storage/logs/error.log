@@ -1,0 +1,5 @@
+2020-10-12 9:38:28 - PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'doorssnapix' in D:\ls\Server\OpenServer\domains\localhost\LendingRezSteklo\system\library\db\mysqli.php on line 7
+2020-10-12 9:38:28 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in D:\ls\Server\OpenServer\domains\localhost\LendingRezSteklo\system\library\db\mysqli.php on line 10
+2020-10-12 9:38:28 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in D:\ls\Server\OpenServer\domains\localhost\LendingRezSteklo\system\library\db\mysqli.php on line 10
+2020-10-12 9:38:28 - PHP Notice:  Undefined variable: mysql in D:\ls\Server\OpenServer\domains\localhost\LendingRezSteklo\install\controller\install\step_3.php on line 280
+2020-10-12 9:38:28 - PHP Notice:  Trying to get property 'connect_error' of non-object in D:\ls\Server\OpenServer\domains\localhost\LendingRezSteklo\install\controller\install\step_3.php on line 280

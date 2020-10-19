@@ -1,0 +1,801 @@
+body
+	main.container-lending
+		.container-lending-banner
+			.container-banner
+				.triangle-block-1
+				.triangle-block-2
+				.triangle-block-3
+				.container-banner-content
+					.banner-info
+						.banner-text
+							.title
+								h2 Отправьте заявку в период действия акции и получите скидку на окна до 20%
+						.eTimer
+					.container-form-content
+						form#form4(method='POST')
+							h2#modal1Title4 Оформите заявку на замер ваших окон!
+							input.putName(type='text' name='name' placeholder='Имя' pattern='^[А-Яа-яЁё\s]+$' required='')
+							input#phone4.putPhone(name='phone' type='tel' placeholder='Телефон' required='')
+							//input.mail(name='mail' type='email' placeholder='Ваш Email' pattern='([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})')
+							//textarea.textarea(name='textarea' placeholder='Адрес' required='')
+							input#butdis4.btn(type='submit' name='submit' value='ОТПРАВИТЬ')
+							input.formInfo(name='formInfo' type='hidden' value='')
+							input(type='hidden' name='formData' value='Заявка с сайта')
+		.container-lending-advantages
+			section.container-advantages-content
+				figure
+					i.fa.fa-money(aria-hidden='true')
+					figcaption
+						span Одни из самых низких цен в&nbsp;Коломне
+				figure
+					i.fa.fa-thumbs-o-up(aria-hidden='true')
+					figcaption
+						span Контроль качества производства
+				figure
+					i.fa.fa-calendar-check-o(aria-hidden='true')
+					figcaption
+						span Минимальные сроки изготовления
+				figure
+					i.fa.fa-users(aria-hidden='true')
+					figcaption
+						span Профессиональные монтажники
+				figure
+					i.fa.fa-shield(aria-hidden='true')
+					figcaption
+						span 5&nbsp;лет гаратии
+		.container-lending-showcase
+			section.container-showcase-content
+				.container-showcase-title
+					h2 Пластиковые окна в Коломне: производство, продажа и установка
+				.container-showcase-text
+					p Компания «KalininHome» уже более 15 лет радует жителей Коломны качественной и быстрой установкой пластиковых окон. Мы сотрудничаем только с ведущими производителями: «Verda», «Фрамир», «Rehau», «KBE» и многими другими. На все профили мы даем гарантию 5 лет, и предлагаем клиентам самые выгодные условия оплаты – 6 месяцев рассрочки без переплат! Вы можете сделать заказ и бесплатно вызвать замерщика, позвонив по телефону или приехать к нам в офис.
+				.container-showcase-flex
+					.showcase-flex-item.item--1(alt='Пластиковые окна')
+						.flex-item-content
+							.content-title
+								|Пластиковые
+								br
+								|окна
+							.content-price от&nbsp;
+								span 9&nbsp;100&nbsp;
+								i.fa.fa-rub(aria-hidden='true')
+							.container-feedback-button
+								button.btn.btn-primary.feedback-button(type='button' data-toggle='modal' data-target='#exampleModalCenteredScrollable') Получить консультацию
+					.showcase-flex-item.item--2(alt='Алюминевые окна')
+						.flex-item-content
+							.content-title
+								|Алюминевые
+								br
+								|окна
+							.content-price от&nbsp;
+								span 3&nbsp;210&nbsp;
+								i.fa.fa-rub(aria-hidden='true')
+							.container-feedback-button
+								button.btn.btn-primary.feedback-button(type='button' data-toggle='modal' data-target='#exampleModalCenteredScrollable') Получить консультацию
+					.showcase-flex-item.item--3(alt='Двери')
+						.flex-item-content
+							.content-title Двери
+							.content-price от&nbsp;
+								span 7&nbsp;700&nbsp;
+								i.fa.fa-rub(aria-hidden='true')
+							.container-feedback-button
+								button.btn.btn-primary.feedback-button(type='button' data-toggle='modal' data-target='#exampleModalCenteredScrollable') Получить консультацию
+					.showcase-flex-item.item--4(alt='Балконы и лоджи')
+						.flex-item-content
+							.content-title
+								|Балконы&nbsp;и
+								br
+								|лоджи
+							.content-price от&nbsp;
+								span 3&nbsp;900&nbsp;
+								i.fa.fa-rub(aria-hidden='true')
+							.container-feedback-button
+								button.btn.btn-primary.feedback-button(type='button' data-toggle='modal' data-target='#exampleModalCenteredScrollable') Получить консультацию
+		.container-lending-advantages_of_windows
+			section.container-advantages_of_windows
+				figure.itemwindow
+					.container-icon
+						svg.svg-inline--fa.fa-temperature-high.fa-w-16(aria-hidden='true' focusable='false' data-prefix='fas' data-icon='temperature-high' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+							path(fill='currentColor' d='M416 0c-52.9 0-96 43.1-96 96s43.1 96 96 96 96-43.1 96-96-43.1-96-96-96zm0 128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm-160-16C256 50.1 205.9 0 144 0S32 50.1 32 112v166.5C12.3 303.2 0 334 0 368c0 79.5 64.5 144 144 144s144-64.5 144-144c0-34-12.3-64.9-32-89.5V112zM144 448c-44.1 0-80-35.9-80-80 0-25.5 12.2-48.9 32-63.8V112c0-26.5 21.5-48 48-48s48 21.5 48 48v192.2c19.8 14.8 32 38.3 32 63.8 0 44.1-35.9 80-80 80zm16-125.1V112c0-8.8-7.2-16-16-16s-16 7.2-16 16v210.9c-18.6 6.6-32 24.2-32 45.1 0 26.5 21.5 48 48 48s48-21.5 48-48c0-20.9-13.4-38.5-32-45.1z')
+					figcaption
+						.item-title Теплоизоляция
+						span Обеспечивает комфортную температуру в помещении круглый год.
+				figure.itemwindow
+					.container-icon
+						svg.svg-inline--fa.fa-volume-mute.fa-w-16(aria-hidden='true' focusable='false' data-prefix='fas' data-icon='volume-mute' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+							path(fill='currentColor' d='M215.03 71.05L126.06 160H24c-13.26 0-24 10.74-24 24v144c0 13.25 10.74 24 24 24h102.06l88.97 88.95c15.03 15.03 40.97 4.47 40.97-16.97V88.02c0-21.46-25.96-31.98-40.97-16.97zM461.64 256l45.64-45.64c6.3-6.3 6.3-16.52 0-22.82l-22.82-22.82c-6.3-6.3-16.52-6.3-22.82 0L416 210.36l-45.64-45.64c-6.3-6.3-16.52-6.3-22.82 0l-22.82 22.82c-6.3 6.3-6.3 16.52 0 22.82L370.36 256l-45.63 45.63c-6.3 6.3-6.3 16.52 0 22.82l22.82 22.82c6.3 6.3 16.52 6.3 22.82 0L416 301.64l45.64 45.64c6.3 6.3 16.52 6.3 22.82 0l22.82-22.82c6.3-6.3 6.3-16.52 0-22.82L461.64 256z')
+					figcaption
+						.item-title Звукоизоляция
+						span Позволяет добиться комфорта внутри помещения, даже если Ваши окна выходят на шумную трассу.
+				figure.itemwindow
+					.container-icon
+						svg.svg-inline--fa.fa-unlock-alt.fa-w-14(aria-hidden='true' focusable='false' data-prefix='fas' data-icon='unlock-alt' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 448 512')
+							path(fill='currentColor' d='M400 256H152V152.9c0-39.6 31.7-72.5 71.3-72.9 40-.4 72.7 32.1 72.7 72v16c0 13.3 10.7 24 24 24h32c13.3 0 24-10.7 24-24v-16C376 68 307.5-.3 223.5 0 139.5.3 72 69.5 72 153.5V256H48c-26.5 0-48 21.5-48 48v160c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zM264 408c0 22.1-17.9 40-40 40s-40-17.9-40-40v-48c0-22.1 17.9-40 40-40s40 17.9 40 40v48z')
+					figcaption
+						.item-title Безопасность
+						span Противовзломная фурнитура позволяет устанавливать окна на первые этажи без использования решеток.
+				figure.itemwindow
+					.container-icon
+						svg.svg-inline--fa.fa-seedling.fa-w-16(aria-hidden='true' focusable='false' data-prefix='fas' data-icon='seedling' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+							path(fill='currentColor' d='M64 96H0c0 123.7 100.3 224 224 224v144c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V320C288 196.3 187.7 96 64 96zm384-64c-84.2 0-157.4 46.5-195.7 115.2 27.7 30.2 48.2 66.9 59 107.6C424 243.1 512 147.9 512 32h-64z')
+					figcaption
+						.item-title Экологичность
+						span Оконные профили изготавливаются исключительно из качественных материалов.
+				figure.itemwindow
+					.container-icon
+						svg.svg-inline--fa.fa-sketch.fa-w-16(aria-hidden='true' focusable='false' data-prefix='fab' data-icon='sketch' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+							path(fill='currentColor' d='M27.5 162.2L9 187.1h90.5l6.9-130.7-78.9 105.8zM396.3 45.7L267.7 32l135.7 147.2-7.1-133.5zM112.2 218.3l-11.2-22H9.9L234.8 458zm2-31.2h284l-81.5-88.5L256.3 33zm297.3 9.1L277.6 458l224.8-261.7h-90.9zM415.4 69L406 56.4l.9 17.3 6.1 113.4h90.3zM113.5 93.5l-4.6 85.6L244.7 32 116.1 45.7zm287.7 102.7h-290l42.4 82.9L256.3 480l144.9-283.8z')
+					figcaption
+						.item-title Внешний дизайн
+						span Многообразие цветового решения подойдет под любой интерьер.
+				figure.itemwindow
+					.container-icon
+						svg.svg-inline--fa.fa-hand-sparkles.fa-w-20(aria-hidden='true' focusable='false' data-prefix='fas' data-icon='hand-sparkles' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 640 512')
+							path(fill='currentColor' d='M106.66,170.64l.09,0,49.55-20.65a7.32,7.32,0,0,0,3.68-6h0a7.29,7.29,0,0,0-3.68-6l-49.57-20.67-.07,0L86,67.68a6.66,6.66,0,0,0-11.92,0l-20.7,49.63-.05,0L3.7,138A7.29,7.29,0,0,0,0,144H0a7.32,7.32,0,0,0,3.68,6L53.27,170.6l.07,0L74,220.26a6.65,6.65,0,0,0,11.92,0l20.69-49.62ZM471.38,467.41l-1-.42-1-.5a38.67,38.67,0,0,1,0-69.14l1-.49,1-.43,37.49-15.63,15.63-37.48.41-1,.47-.95c3.85-7.74,10.58-13.63,18.35-17.34,0-1.33.25-2.69.27-4V144a32,32,0,0,0-64,0v72a8,8,0,0,1-8,8H456a8,8,0,0,1-8-8V64a32,32,0,0,0-64,0V216a8,8,0,0,1-8,8H360a8,8,0,0,1-8-8V32a32,32,0,0,0-64,0V216a8,8,0,0,1-8,8H264a8,8,0,0,1-8-8V64a32,32,0,0,0-64,0v241l-23.59-32.49a40,40,0,0,0-64.71,47.09L229.3,492.21A48.07,48.07,0,0,0,268.09,512H465.7c19.24,0,35.65-11.73,43.24-28.79l-.07-.17ZM349.79,339.52,320,351.93l-12.42,29.78a4,4,0,0,1-7.15,0L288,351.93l-29.79-12.41a4,4,0,0,1,0-7.16L288,319.94l12.42-29.78a4,4,0,0,1,7.15,0L320,319.94l29.79,12.42a4,4,0,0,1,0,7.16ZM640,431.91a7.28,7.28,0,0,0-3.68-6l-49.57-20.67-.07,0L566,355.63a6.66,6.66,0,0,0-11.92,0l-20.7,49.63-.05,0L483.7,426a7.28,7.28,0,0,0-3.68,6h0a7.29,7.29,0,0,0,3.68,5.95l49.57,20.67.07,0L554,508.21a6.65,6.65,0,0,0,11.92,0l20.69-49.62h0l.09,0,49.55-20.66a7.29,7.29,0,0,0,3.68-5.95h0Z')
+					figcaption
+						.item-title Простое и удобное использование
+						span Гладкая поверхность материала профиля обеспечивает простоту ухода за окнами.
+		.container-lending-slider
+			section.container-slider
+				.wrapper
+					.catalog-slider
+						.catalog-slider__wrp.swiper-wrapper
+							.catalog-slider__item.swiper-slide
+								a.catalog__item()
+									.catalog__img
+										img.lazyload(data-src='catalog/view/theme/default/template/pages/img/80.png' alt='catalog')
+										.slogan-item Надежность и комфорт
+										.price-item Цена&nbsp;
+											span 9&nbsp;400&nbsp;
+											| руб.
+									.catalog__item-info
+										.container-item-title
+											span Rehau OKNO
+										.container-item-info
+											.container-item-info-left
+												.title-item-info-left Преимущества:
+												ul
+													li Полная защита от сквозняков и хорошие показатели энергосбережения
+														svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+															path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+													li Три контура уплотнения делают окна максимально герметичными
+														svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+															path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+													li Защита от шума до 5 класса
+														svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+															path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+													li Экономия энергии до 76%
+														svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+															path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+													li Инновационный состав пластика с добавлением фиброволокна делает окна легкими и прочными
+														svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+															path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+												.price-item Цена&nbsp;
+													span 9&nbsp;400&nbsp;
+													| руб.
+											.container-item-info-right
+												.title-item-info-right Характеристики:
+												.item-info
+													.info-left Профиль
+													.info-right 86 мм / 6 камер
+												.item-info
+													.info-left Стеклопакет
+													.info-right 44 - 52 мм
+												.item-info
+													.info-left Уплотнитель
+													.info-right 3-контурное уплотнение: серый
+												.item-info
+													.info-left Ценовая категория
+													.info-right-img.info-right
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainprice.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainprice.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainprice.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainprice.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainprice.png" alt="logo")
+														.rating-item(style="width: calc(100% - 41%);")
+												.item-info
+													.info-left Сохранение тепла
+													.info-right-img.info-right
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainteplo.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainteplo.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainteplo.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainteplo.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainteplo.png" alt="logo")
+														.rating-item(style="width: calc(100% - 61%);")
+												.item-info
+													.info-left Подавление шума
+													.info-right-img.info-right
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainshum.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainshum.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainshum.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainshum.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainshum.png" alt="logo")
+														.rating-item(style="width: calc(100% - 71%);")
+												button.btn.btn-primary.feedback-button.item-info-full(type='button' data-toggle='modal' data-target='#exampleModalCenteredScrollable') Подробнее
+							.catalog-slider__item.swiper-slide
+								a.catalog__item()
+									.catalog__img
+										img.lazyload(data-src='catalog/view/theme/default/template/pages/img/70.png' alt='catalog')
+										.slogan-item Надежность и комфорт
+										.price-item Цена&nbsp;
+											span 9&nbsp;400&nbsp;
+											| руб.
+									.catalog__item-info
+										.container-item-title
+											span Rehau OKNO
+										.container-item-info
+											.container-item-info-left
+												.title-item-info-left Преимущества:
+												ul
+													li Полная защита от сквозняков и хорошие показатели энергосбережения
+														svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+															path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+													li Три контура уплотнения делают окна максимально герметичными
+														svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+															path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+													li Защита от шума до 5 класса
+														svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+															path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+													li Экономия энергии до 76%
+														svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+															path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+													li Инновационный состав пластика с добавлением фиброволокна делает окна легкими и прочными
+														svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+															path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+												.price-item Цена&nbsp;
+													span 9&nbsp;400&nbsp;
+													| руб.
+											.container-item-info-right
+												.title-item-info-right Характеристики:
+												.item-info
+													.info-left Профиль
+													.info-right 86 мм / 6 камер
+												.item-info
+													.info-left Стеклопакет
+													.info-right 44 - 52 мм
+												.item-info
+													.info-left Уплотнитель
+													.info-right 3-контурное уплотнение: серый
+												.item-info
+													.info-left Ценовая категория
+													.info-right-img.info-right
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainprice.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainprice.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainprice.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainprice.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainprice.png" alt="logo")
+														.rating-item(style="width: calc(100% - 11%);")
+												.item-info
+													.info-left Сохранение тепла
+													.info-right-img.info-right
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainteplo.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainteplo.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainteplo.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainteplo.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainteplo.png" alt="logo")
+														.rating-item(style="width: calc(100% - 51%);")
+												.item-info
+													.info-left Подавление шума
+													.info-right-img.info-right
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainshum.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainshum.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainshum.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainshum.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainshum.png" alt="logo")
+														.rating-item(style="width: calc(100% - 91%);")
+												button.btn.btn-primary.feedback-button.item-info-full(type='button' data-toggle='modal' data-target='#exampleModalCenteredScrollable') Подробнее
+							.catalog-slider__item.swiper-slide
+								a.catalog__item()
+									.catalog__img
+										img.lazyload(data-src='catalog/view/theme/default/template/pages/img/80.png' alt='catalog')
+										.slogan-item Надежность и комфорт
+										.price-item Цена&nbsp;
+											span 9&nbsp;400&nbsp;
+											| руб.
+									.catalog__item-info
+										.container-item-title
+											span Rehau OKNO
+										.container-item-info
+											.container-item-info-left
+												.title-item-info-left Преимущества:
+												ul
+													li Полная защита от сквозняков и хорошие показатели энергосбережения
+														svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+															path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+													li Три контура уплотнения делают окна максимально герметичными
+														svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+															path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+													li Защита от шума до 5 класса
+														svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+															path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+													li Экономия энергии до 76%
+														svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+															path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+													li Инновационный состав пластика с добавлением фиброволокна делает окна легкими и прочными
+														svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+															path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+												.price-item Цена&nbsp;
+													span 9&nbsp;400&nbsp;
+													| руб.
+											.container-item-info-right
+												.title-item-info-right Характеристики:
+												.item-info
+													.info-left Профиль
+													.info-right 86 мм / 6 камер
+												.item-info
+													.info-left Стеклопакет
+													.info-right 44 - 52 мм
+												.item-info
+													.info-left Уплотнитель
+													.info-right 3-контурное уплотнение: серый
+												.item-info
+													.info-left Ценовая категория
+													.info-right-img.info-right
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainprice.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainprice.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainprice.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainprice.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainprice.png" alt="logo")
+														.rating-item(style="width: calc(100% - 91%);")
+												.item-info
+													.info-left Сохранение тепла
+													.info-right-img.info-right
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainteplo.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainteplo.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainteplo.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainteplo.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainteplo.png" alt="logo")
+														.rating-item(style="width: calc(100% - 91%);")
+												.item-info
+													.info-left Подавление шума
+													.info-right-img.info-right
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainshum.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainshum.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainshum.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainshum.png" alt="logo")
+														img.category-info.lazyload(data-src="catalog/view/theme/default/template/pages/img/mainshum.png" alt="logo")
+														.rating-item(style="width: calc(100% - 91%);")
+												button.btn.btn-primary.feedback-button.item-info-full(type='button' data-toggle='modal' data-target='#exampleModalCenteredScrollable') Подробнее
+						.catalog-slider__ctr
+							.catalog-slider__arrows
+								button.catalog-slider__arrow.catalog-slider-prev
+									span.icon-font
+										svg.svg-inline--fa.fa-chevron-left.fa-w-10(aria-hidden='true' focusable='false' data-prefix='fas' data-icon='chevron-left' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 320 512')
+											path(fill='currentColor' d='M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z')
+								button.catalog-slider__arrow.catalog-slider-next
+									span.icon-font
+										svg.svg-inline--fa.fa-chevron-right.fa-w-10(aria-hidden='true' focusable='false' data-prefix='fas' data-icon='chevron-right' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 320 512')
+											path(fill='currentColor' d='M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z')
+							.catalog-slider__pagination
+		.container-lending-submenu
+			section.container-submenu
+				.submenu-title Вопрос-ответ
+				.container-submenu-question
+					details  Часто недобросовестные производители ставят низкокачественные уплотнители, дешевую фурнитуру, экономят на квалификации монтажников. Такая конструкция быстрее ломается и чаще требует обслуживания, а может и вовсе потребоваться демонтаж и повторная установка. Мы не экономим на комплектующих и стеклопакетах, а в нашей компании работают опытные монтажники, поэтому выгоднее заказывать у нас.
+						summary
+							p Почему у других компаний окна дешевле?
+							svg.svg-inline--fa.fa-plus.fa-w-14(aria-hidden='true' focusable='false' data-prefix='fas' data-icon='plus' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 448 512')
+								path(fill='currentColor' d='M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z')
+					details  Срок изготовления стандартных окон из ПВХ белого цвета — 5-6 рабочих дней. Для нестандартных и крупных заказов времени может потребоваться больше. Мы заранее рассчитаем сроки изготовления, обсуждаем их с заказчиком и указываем в условиях контракта.
+						summary
+							p Как долго вы изготавливаете окна?
+							svg.svg-inline--fa.fa-plus.fa-w-14(aria-hidden='true' focusable='false' data-prefix='fas' data-icon='plus' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 448 512')
+								path(fill='currentColor' d='M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z')
+					details  Гарантия на окна — 5 лет. За это время конструкция не деформируется, сохранит все эксплуатационные характеристики.
+						summary
+							p Какие гарантии вы даете?
+							svg.svg-inline--fa.fa-plus.fa-w-14(aria-hidden='true' focusable='false' data-prefix='fas' data-icon='plus' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 448 512')
+								path(fill='currentColor' d='M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z')
+					details  Оплатить товар наличными средствами можно в офисе нашей компании или непосредственно курьеру, доставившему Ваш заказ. Также Вы можете оплачивать услуги нашей компании с помощью карт МИР, VISA, MasterCard, UnionPay, JCB. Безналичным расчетом могут воспользоваться как физические, так и юридические лица. Вам достаточно будет окончательно определиться с выбором и оформить заказ в личном кабинете с помощью нашего менеджера.
+						summary
+							p Какие у вас есть способы оплаты?
+							svg.svg-inline--fa.fa-plus.fa-w-14(aria-hidden='true' focusable='false' data-prefix='fas' data-icon='plus' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 448 512')
+								path(fill='currentColor' d='M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z')
+					details  Весь строительный мусор, который появляется во время работы, мы сами соберем, упакуем и вынесем из квартиры. Вам останется только убрать его с лестничной площадки.
+						summary
+							p Что делать со старыми окнами и мусором?
+							svg.svg-inline--fa.fa-plus.fa-w-14(aria-hidden='true' focusable='false' data-prefix='fas' data-icon='plus' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 448 512')
+								path(fill='currentColor' d='M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z')
+					details  Монтажом занимаются исключительно штатные сотрудники. Мы не работаем со сторонними подрядчиками. Все мастера постоянно повышают квалификацию.
+						summary
+							p Кто выполняет монтаж в вашей компании?
+							svg.svg-inline--fa.fa-plus.fa-w-14(aria-hidden='true' focusable='false' data-prefix='fas' data-icon='plus' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 448 512')
+								path(fill='currentColor' d='M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z')
+					details  Наша компания предоставляет возможность оплаты заказа в рассрочку без переплат на 6 месяцев. Также мы всегда готовы помочь Вам с выбором окон именно для Вашей квартиры или дома. Например, если окна выходят в тихий двор или располагаются с южной стороны, то конструкция с повышенной тепло- и звукоизоляцией не потребуется.
+						summary
+							p Можно ли как-то сэкономить на установке пластиковых окон?
+							svg.svg-inline--fa.fa-plus.fa-w-14(aria-hidden='true' focusable='false' data-prefix='fas' data-icon='plus' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 448 512')
+								path(fill='currentColor' d='M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z')
+		.container-lending-form
+			section.container-form
+				.triangle-block-1
+				.triangle-block-2
+				.triangle-block-3
+				.container-form-title
+				.container-form-content
+					form#form2(method='POST')
+						h2#modal1Title2 Оформите заявку на замер ваших окон!
+						input.putName(type='text' name='name' placeholder='Имя' pattern='^[А-Яа-яЁё\s]+$' required='')
+						input#phone2.putPhone(name='phone' type='tel' placeholder='Телефон' required='')
+						//input.mail(name='mail' type='email' placeholder='Ваш Email' pattern='([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})')
+						textarea.textarea(name='textarea' placeholder='Адрес' required='')
+						input#butdis2.btn(type='submit' name='submit' value='ОТПРАВИТЬ')
+						input.formInfo(name='formInfo' type='hidden' value='')
+						input(type='hidden' name='formData' value='Заявка с сайта')
+		.container-lending-slider-3
+			section.container-slider-3
+				script#v-carousel(type="x/template")
+					.card-carousel-wrapper
+						.card-carousel-title Выполненые работы
+						.card-carousel--nav__left(v-if="width >= 1000" @click="moveCarousel(-1)" :disabled="atHeadOfList")
+						.card-carousel--nav__left(v-else-if="width >= 769 && width <= 999" @click="moveCarouselThree(-1)" :disabled="atHeadOfListThree")
+						.card-carousel--nav__left(v-else-if="width >= 520 && width <= 768.7" @click="moveCarouselTwo(-1)" :disabled="atHeadOfListTwo")
+						.card-carousel--nav__left(v-else @click="moveCarouselMobile(-1)" :disabled="atHeadOfListMobile")
+						.card-carousel
+							.card-carousel--overflow-container
+								.card-carousel-cards(:style="{ transform: 'translateX' + '(' + currentOffset + 'px' + ')'}")
+									.card-carousel--card(v-for="item in items" )
+										a(v-bind:data-fancybox="item.id" v-bind:href="item.banner")
+											img.image.lazyload(v-bind:data-src="item.banner" )
+										.card-carousel--card--footer
+											.name(v-html='item.name')
+											.tag(v-html='item.tag')
+											button.hreffull(type='button' data-toggle='modal' data-target='#exampleModalCenteredScrollable') Заказать
+						.card-carousel--nav__right(v-if="width >= 1000" @click="moveCarousel(1)" :disabled="atEndOfList")
+						.card-carousel--nav__right(v-else-if="width >= 769 && width <= 999" @click="moveCarouselThree(1)" :disabled="atEndOfListThree")
+						.card-carousel--nav__right(v-else-if="width >= 520 && width <= 768.7" @click="moveCarouselTwo(1)" :disabled="atEndOfListThree")
+						.card-carousel--nav__right(v-else @click="moveCarouselMobile(1)" :disabled="atEndOfListMobile")
+				#appcarousel
+					carousel
+		.container-lending-feedback
+			section.container-feedback
+				.container-feedback-title
+					h2 Отзывы о работе компании "Kalinin Home"
+				.container-feedback-content
+					.container-feedback-content-item
+						figure
+							.item-content
+								img.lazyload(data-src="catalog/view/theme/default/template/pages/img/reviews-3.png" alt="logoperson")
+								span Олег
+								span Коломна
+							figcaption
+								p Отличная фирма! Я очень въедливый заказчик! Замерщик ПОЛНОСТЬЮ учел ВСЁ что я хотел! Фирма фурнитуры, тип фурнитуры, тип стекла, толщину армирующего профиля... Абсолютно всё! Результатом работы доволен полностью!
+					.container-feedback-content-item
+						figure
+							.item-content
+								img.lazyload(data-src="catalog/view/theme/default/template/pages/img/reviews-1.png" alt="logoperson")
+								span Ирина
+								span Коломна
+							figcaption
+								p Заказывала двери и остекление лоджии. Все выполнено отлично и в срок. Двери стоят 3-й год, как новые. Рекомендую эту фирму.
+					.container-feedback-content-item
+						figure
+							.item-content
+								img.lazyload(data-src="catalog/view/theme/default/template/pages/img/reviews-2.png" alt="logoperson")
+								span Анастасия
+								span Коломна
+							figcaption
+								p Приобретала пластиковые окна в свою квартиру! В целом, цена соответствует качеству материала и сделанной работе. Не заставили долго ждать, установили вполне быстро, качественно. Осталась довольна работой. Советую всем заказать у них окна.
+					.container-feedback-content-item
+						figure
+							.item-content
+								img.lazyload(data-src="catalog/view/theme/default/template/pages/img/reviews-4.png" alt="logoperson")
+								span Валентина
+								span Коломна
+							figcaption
+								p Устанавливали окна во всей квартире. Прошло все гладко, четко и полностью в соответствии с договором. Все сроки соблюдены.
+		.container-lending-achievements
+			section.container-achievements
+				.container-achievements-content
+					.achievements-content
+						.achievements-item-title
+							h2 Клиенты нам доверяют!
+						.achievements-item
+							.item-img-content
+								svg#Capa_1.indusrial(enable-background='new 0 0 512 512' height='512' viewbox='0 0 512 512' width='512' xmlns='http://www.w3.org/2000/svg')
+									g
+										path(d='m406 0c-57.897 0-105 47.103-105 105s47.103 105 105 105c58.049 0 106-47.115 106-105 0-27.992-11.139-54.378-31.364-74.298-20.102-19.798-46.608-30.702-74.636-30.702zm0 180c-41.355 0-75-33.645-75-75s33.645-75 75-75c41.907 0 76 33.645 76 75s-34.093 75-76 75z')
+										path(d='m425.394 79.393-34.394 34.394-11.894-11.894c-5.857-5.858-15.355-5.858-21.213 0s-5.858 15.355 0 21.213l22.5 22.5c2.929 2.93 6.768 4.394 10.607 4.394s7.678-1.464 10.606-4.393l45-45c5.858-5.858 5.858-15.355 0-21.213-5.857-5.859-15.355-5.859-21.212-.001z')
+										path(d='m512 407c0-24.813-20.187-45-45-45h-76v-76c0-8.284-6.716-15-15-15h-75v-45c0-5.532-3.045-10.615-7.922-13.225-4.877-2.611-10.795-2.324-15.398.744l-66.68 44.453v-31.972c0-5.532-3.045-10.615-7.922-13.225-4.877-2.611-10.795-2.324-15.398.744l-66.68 44.453c0-12.936 0-106.488 0-122.972 0-8.284-6.716-15-15-15h-60c-8.284 0-15 6.716-15 15v122.484l-24.257 15.993c-4.21 2.776-6.743 7.481-6.743 12.523v211c0 8.284 6.716 15 15 15h361c8.284 0 15-6.716 15-15v-45h61v45c0 8.284 6.716 15 15 15h30c8.284 0 15-6.716 15-15s-6.716-15-15-15h-15v-32.58c17.459-6.192 30-22.865 30-42.42zm-451-257h30v67.923l-30 19.78zm210 332h-30v-90h30zm90 0h-60v-105c0-8.284-6.716-15-15-15h-60c-8.284 0-15 6.716-15 15v105h-181v-187.923c.679-.433 60.9-40.154 61-40.22v32.143c0 5.532 3.045 10.615 7.922 13.225s10.795 2.324 15.398-.744l66.68-44.453v31.972c0 5.532 3.045 10.615 7.922 13.225s10.795 2.324 15.398-.744l66.68-44.453v31.972c0 8.284 6.716 15 15 15h75zm30-90h76c8.271 0 15 6.729 15 15s-6.729 15-15 15h-76z')
+										path(d='m166 362h-90c-8.284 0-15 6.716-15 15v60c0 8.284 6.716 15 15 15h90c8.284 0 15-6.716 15-15v-60c0-8.284-6.716-15-15-15zm-15 60h-60v-30h60z')
+										path(d='m91 75c0-8.271 6.729-15 15-15h60c24.813 0 45-20.187 45-45 0-8.284-6.716-15-15-15s-15 6.716-15 15c0 8.271-6.729 15-15 15h-60c-24.813 0-45 20.187-45 45 0 8.284 6.716 15 15 15s15-6.716 15-15z')
+							.item-text-content
+								.progress-title
+									p Более
+										span  15
+										|  лет
+								.progress-subtitle
+									| Занимаем ведущие
+									br
+									| позиции на рынке
+						.achievements-item
+							.item-img-content
+								svg(height='569pt' viewbox='0 0 569 569.54905' width='569pt' xmlns='http://www.w3.org/2000/svg')
+									path(d='m1.527344 52.246094 37.984375 66.46875c1.28125 2.246094 3.425781 3.871094 5.933593 4.5l35.4375 8.859375 121.542969 121.542969 13.429688-13.425782-123.445313-123.441406c-1.214844-1.21875-2.738281-2.082031-4.40625-2.5l-34.050781-8.542969-32.339844-56.625 27.726563-27.726562 56.648437 32.371093 8.546875 34.050782c.414063 1.671875 1.28125 3.199218 2.496094 4.414062l123.445312 123.445313 13.425782-13.429688-121.542969-121.542969-8.859375-35.417968c-.628906-2.511719-2.253906-4.660156-4.5-5.945313l-66.472656-37.980469c-3.707032-2.109374-8.371094-1.484374-11.394532 1.527344l-37.980468 37.984375c-3.0546878 3.003907-3.71875 7.675781-1.625 11.414063zm0 0')
+									path(d='m396.3125 187.144531-208.902344 208.90625-13.429687-13.429687 208.90625-208.902344zm0 0')
+									path(d='m150.847656 403.441406c-1.71875-2.859375-4.804687-4.605468-8.140625-4.605468h-56.972656c-3.332031 0-6.421875 1.746093-8.136719 4.605468l-28.488281 47.476563c-1.808594 3.007812-1.808594 6.769531 0 9.78125l28.488281 47.476562c1.714844 2.855469 4.804688 4.605469 8.136719 4.605469h56.972656c3.335938 0 6.421875-1.75 8.140625-4.605469l28.484375-47.476562c1.808594-3.011719 1.808594-6.773438 0-9.78125zm-13.511718 90.347656h-46.226563l-22.789063-37.980468 22.789063-37.984375h46.226563l22.789062 37.984375zm0 0')
+									path(d='m456.0625 227.914062c62.714844.210938 113.730469-50.460937 113.941406-113.175781.03125-9.546875-1.140625-19.054687-3.488281-28.308593-1.265625-5.089844-6.417969-8.1875-11.507813-6.921876-1.671874.417969-3.195312 1.28125-4.414062 2.496094l-59.109375 59.070313-46.898437-15.628907-15.640626-46.886718 59.109376-59.121094c3.707031-3.710938 3.703124-9.722656-.007813-13.429688-1.222656-1.222656-2.761719-2.089843-4.445313-2.503906-60.820312-15.402344-122.605468 21.414063-138.007812 82.230469-2.339844 9.226563-3.507812 18.710937-3.476562 28.230469.023437 7.476562.792968 14.929687 2.308593 22.25l-207.957031 207.953125c-7.320312-1.511719-14.773438-2.28125-22.246094-2.308594-62.933594 0-113.949218 51.015625-113.949218 113.949219 0 62.929687 51.015624 113.945312 113.949218 113.945312 62.929688 0 113.945313-51.015625 113.945313-113.945312-.023438-7.476563-.796875-14.929688-2.308594-22.25l49.785156-49.785156 21.773438 21.773437c3.710937 3.707031 9.71875 3.707031 13.429687 0l4.746094-4.75c4.164062-4.136719 10.894531-4.136719 15.058594 0 4.160156 4.148437 4.167968 10.882813.019531 15.042969-.003906.003906-.011719.011718-.019531.019531l-4.746094 4.746094c-3.707031 3.707031-3.707031 9.71875 0 13.425781l113.273438 113.273438c29.792968 30.066406 78.316406 30.285156 108.382812.492187 30.0625-29.792969 30.28125-78.320313.488281-108.382813-.160156-.164062-.324219-.328124-.488281-.492187l-113.273438-113.269531c-3.707031-3.707032-9.71875-3.707032-13.425781 0l-4.746093 4.746094c-4.167969 4.140624-10.894532 4.140624-15.0625 0-4.15625-4.148438-4.167969-10.882813-.019532-15.039063.007813-.007813.015625-.011719.019532-.019531l4.75-4.75c3.707031-3.707032 3.707031-9.71875 0-13.425782l-21.773438-21.773437 49.785156-49.785156c7.320313 1.511719 14.773438 2.285156 22.246094 2.308593zm37.308594 322.851563c-6.898438-.011719-13.738282-1.257813-20.195313-3.683594l74.160157-74.164062c11.191406 29.769531-3.867188 62.972656-33.636719 74.164062-6.496094 2.441407-13.382813 3.691407-20.328125 3.683594zm-107.574219-246.792969c-10.515625 12.542969-8.867187 31.238282 3.675781 41.75 11.023438 9.238282 27.089844 9.230469 38.101563-.027344l106.5625 106.65625c1.15625 1.160157 2.238281 2.382813 3.285156 3.625l-81.1875 81.1875c-1.246094-1.042968-2.46875-2.125-3.628906-3.285156l-106.644531-106.652344c10.515624-12.542968 8.867187-31.238281-3.675782-41.75-11.023437-9.242187-27.09375-9.230468-38.105468.023438l-15.191407-15.191406 81.613281-81.492188zm38.34375-95.503906-215.410156 215.367188c-2.363281 2.359374-3.3125 5.785156-2.507813 9.023437 13.027344 51.160156-17.886718 103.195313-69.050781 116.21875-51.160156 13.027344-103.195313-17.886719-116.222656-69.050781-13.023438-51.160156 17.890625-103.195313 69.054687-116.222656 15.476563-3.9375 31.691406-3.9375 47.167969 0 3.238281.792968 6.65625-.15625 9.023437-2.503907l215.359376-215.371093c2.359374-2.359376 3.308593-5.785157 2.496093-9.019532-12.9375-50.5625 17.5625-102.039062 68.125-114.980468 9.554688-2.441407 19.4375-3.378907 29.28125-2.765626l-50.089843 50.109376c-2.542969 2.539062-3.433594 6.300781-2.296876 9.710937l18.988282 56.976563c.949218 2.832031 3.175781 5.058593 6.011718 6l56.976563 18.992187c3.40625 1.136719 7.167969.25 9.710937-2.289063l50.089844-50.089843c.113282 1.8125.171875 3.605469.171875 5.390625.265625 52.175781-41.8125 94.6875-93.988281 94.957031-8.066406.039063-16.105469-.953125-23.917969-2.953125-3.238281-.808594-6.664062.136719-9.023437 2.496094h.050781zm0 0')
+									path(d='m491.273438 477.578125-13.429688 13.429687-94.953125-94.953124 13.425781-13.429688zm0 0')
+							.item-text-content
+								.progress-title
+									p
+										span 365
+										| &nbsp;дней
+								.progress-subtitle
+									| Непрерывного сервиса и
+									br
+									| заботы о клиентах
+						.achievements-item
+							.item-img-content
+								svg#Layer_1(enable-background='new 0 0 496 496' height='512' viewbox='0 0 496 496' width='512' xmlns='http://www.w3.org/2000/svg')
+									path(d='m248.391 254.64c53.89 0 97.732-43.842 97.732-97.732s-43.842-97.732-97.732-97.732-97.732 43.842-97.732 97.732 43.842 97.732 97.732 97.732zm0-163.464c36.245 0 65.732 29.487 65.732 65.732s-29.487 65.732-65.732 65.732-65.732-29.487-65.732-65.732 29.487-65.732 65.732-65.732zm-154.173 195.609c33.932 0 61.537-27.605 61.537-61.536 0-33.932-27.605-61.537-61.537-61.537-33.931 0-61.536 27.605-61.536 61.537 0 33.931 27.605 61.536 61.536 61.536zm0-91.073c16.287 0 29.537 13.25 29.537 29.537 0 16.286-13.25 29.536-29.537 29.536-16.286 0-29.536-13.25-29.536-29.536 0-16.287 13.25-29.537 29.536-29.537zm307.564 91.073c33.931 0 61.536-27.605 61.536-61.536 0-33.932-27.605-61.537-61.536-61.537-33.932 0-61.537 27.605-61.537 61.537.001 33.931 27.606 61.536 61.537 61.536zm0-91.073c16.286 0 29.536 13.25 29.536 29.537 0 16.286-13.25 29.536-29.536 29.536-16.287 0-29.537-13.25-29.537-29.536.001-16.287 13.251-29.537 29.537-29.537zm94.218 150.184v26.392c0 8.836-7.164 16-16 16s-16-7.164-16-16v-26.392c0-2.755-1.625-5.262-4.142-6.385l-27.414-12.24h-51.861c14.512 10.647 23.417 27.731 23.417 46.183v47.37c0 8.836-7.164 16-16 16s-16-7.164-16-16v-47.37c0-9.957-5.875-19.014-14.966-23.073l-51.679-23.075h-4.52c-21.569 43.51-84.075 43.562-105.67 0h-4.52l-51.678 23.075c-9.092 4.059-14.967 13.116-14.967 23.073v47.37c0 8.836-7.164 16-16 16s-16-7.164-16-16v-47.37c0-18.452 8.905-35.536 23.417-46.184h-51.862l-27.413 12.24c-2.517 1.124-4.142 3.63-4.142 6.385v26.392c0 8.836-7.164 16-16 16s-16-7.164-16-16v-26.392c0-15.365 9.065-29.341 23.096-35.605 33.316-14.876 32.52-15.021 37.05-15.021 73.327 0 69.944-.525 74.232 1.39l23.207 10.362 23.127-10.327c4.009-1.79 5.017-1.39 25.54-1.39 7.364 0 13.777 5.026 15.537 12.177 6.707 27.256 45.713 27.269 52.423 0 1.76-7.15 8.173-12.177 15.537-12.177h19.017c4.506 0 4.708.58 29.651 11.717 25.203-11.253 25.266-11.752 29.73-11.752 73.327 0 69.942-.526 74.232 1.39l30.527 13.63c14.029 6.266 23.094 20.242 23.094 35.607z')
+							.item-text-content
+								.progress-title
+									p Более
+										span  500
+										|  Клиентов
+								.progress-subtitle
+									| Ежегодно
+						.achievements-item
+							.item-img-content
+								svg#Capa_1(version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewbox='0 0 480 480' style='enable-background:new 0 0 480 480;' xml:space='preserve')
+									g
+										g
+											path(d='M478.4,235.2L478.4,235.2l-36.8-49.216l7.32-61.064c0.424-3.529-1.531-6.915-4.8-8.312l-56.56-24.12l-24.168-56.576\
+								      c-1.396-3.269-4.783-5.224-8.312-4.8l-61.064,7.328L244.8,1.6c-2.844-2.133-6.756-2.133-9.6,0l-49.216,36.84l-61.056-7.328\
+								      c-3.529-0.424-6.916,1.531-8.312,4.8L92.488,92.488l-56.568,24.12c-3.269,1.397-5.224,4.783-4.8,8.312l7.32,61.064L1.6,235.2\
+								      c-2.133,2.844-2.133,6.755,0,9.6l36.848,49.216L31.12,355.08c-0.424,3.529,1.531,6.916,4.8,8.312l56.56,24.12l24.128,56.576\
+								      c1.396,3.269,4.783,5.224,8.312,4.8l61.064-7.328L235.2,478.4c2.844,2.133,6.756,2.133,9.6,0l49.216-36.8l61.056,7.328\
+								      c3.529,0.424,6.916-1.531,8.312-4.8l24.128-56.576l56.568-24.12c3.269-1.397,5.224-4.783,4.8-8.312l-7.28-61.104l36.8-49.216\
+								      C480.533,241.956,480.533,238.044,478.4,235.2z M101.72,374.064l-54.008-23.04l6.992-58.28c0.247-2.044-0.303-4.104-1.536-5.752\
+								      L17.992,240l35.2-46.992c1.233-1.648,1.783-3.708,1.536-5.752L52.4,168H120v208h-15.608\
+								      C103.647,375.175,102.736,374.515,101.72,374.064z M426.832,287.024c-1.233,1.648-1.783,3.708-1.536,5.752l6.992,58.28\
+								      l-54.008,23.04c-1.899,0.808-3.413,2.318-4.224,4.216l-23.032,54.008l-58.28-7c-2.042-0.243-4.099,0.31-5.744,1.544l-47,35.144\
+								      l-47-35.2c-1.385-1.039-3.069-1.6-4.8-1.6c-0.318-0.001-0.636,0.018-0.952,0.056l-58.28,7L111.792,392H136v-16h200\
+								      c17.673-0.008,31.994-14.341,31.986-32.014c-0.003-6.33-1.883-12.517-5.402-17.778c16.677-5.85,25.454-24.112,19.604-40.788\
+								      c-1.279-3.645-3.207-7.029-5.692-9.988c2.225-1.349,4.279-2.961,6.12-4.8c12.408-12.26,12.529-32.257,0.269-44.666\
+								      c-1.968-1.992-4.192-3.713-6.613-5.118c5.514-6.394,8.259-14.717,7.632-23.136c-1.612-17.079-16.112-30.031-33.264-29.712H272v-64\
+								      c-0.026-22.08-17.92-39.974-40-40h-16c-4.418,0-8,3.582-8,8v32c-0.04,35.33-28.67,63.96-64,64h-8v-16H50.48l-2.768-23.024\
+								      l54.008-23.04c1.899-0.808,3.412-2.318,4.224-4.216l23.032-54.008l58.28,7c2.042,0.249,4.102-0.304,5.744-1.544l47-35.176l47,35.2\
+								      c1.643,1.238,3.702,1.792,5.744,1.544l58.28-7l23.04,54.008c0.81,1.896,2.32,3.406,4.216,4.216L432.288,129l-6.992,58.28\
+								      c-0.247,2.044,0.303,4.104,1.536,5.752L462.008,240L426.832,287.024z M264,184h86.64c8.727-0.233,16.209,6.187,17.304,14.848\
+								      c0.377,4.635-1.323,9.197-4.64,12.456c-2.988,3.015-7.06,4.706-11.304,4.696h-16c-4.418,0-8,3.582-8,8s3.582,8,8,8h22.64\
+								      c8.727-0.233,16.209,6.187,17.304,14.848c0.377,4.635-1.323,9.197-4.64,12.456c-2.988,3.015-7.06,4.706-11.304,4.696h-24\
+								      c-4.418,0-8,3.582-8,8s3.582,8,8,8h16c8.837,0,16,7.163,16,16s-7.163,16-16,16h-24c-4.418,0-8,3.582-8,8s3.582,8,8,8h8\
+								      c8.837,0,16,7.163,16,16s-7.163,16-16,16H136V184h8c44.163-0.049,79.951-35.837,80-80V80h8c13.255,0,24,10.745,24,24v72\
+								      C256,180.418,259.582,184,264,184z')
+									g
+									g
+									g
+									g
+									g
+									g
+									g
+									g
+									g
+									g
+									g
+									g
+									g
+									g
+									g
+
+							.item-text-content
+								.progress-title
+									p Более
+										span  5000
+										|  окон
+								.progress-subtitle
+									| Установлено
+									br
+									| нашим клиентам
+						.achievements-item
+							.item-img-content
+								svg(height='487pt' viewbox='-29 0 487 487.71902' width='487pt' xmlns='http://www.w3.org/2000/svg')
+									path(d='m220.867188 266.175781c-.902344-.195312-1.828126-.230469-2.742188-.09375-9.160156-1.066406-16.070312-8.816406-16.085938-18.035156 0-4.417969-3.582031-8-8-8-4.417968 0-8 3.582031-8 8 .023438 15.394531 10.320313 28.878906 25.164063 32.953125v8c0 4.417969 3.582031 8 8 8s8-3.582031 8-8v-7.515625c17.132813-3.585937 28.777344-19.542969 26.976563-36.953125-1.804688-17.410156-16.472657-30.640625-33.976563-30.644531-10.03125 0-18.164063-8.132813-18.164063-18.164063s8.132813-18.164062 18.164063-18.164062 18.164063 8.132812 18.164063 18.164062c0 4.417969 3.582031 8 8 8 4.417968 0 8-3.582031 8-8-.023438-16.164062-11.347657-30.105468-27.164063-33.441406v-7.28125c0-4.417969-3.582031-8-8-8s-8 3.582031-8 8v7.769531c-16.507813 4.507813-27.132813 20.535157-24.859375 37.496094s16.746094 29.621094 33.859375 29.617187c9.898437 0 17.972656 7.925782 18.152344 17.820313.183593 9.894531-7.597657 18.113281-17.488281 18.472656zm0 0')
+									path(d='m104.195312 222.5c0 64.070312 51.9375 116.007812 116.007813 116.007812s116.007813-51.9375 116.007813-116.007812-51.9375-116.007812-116.007813-116.007812c-64.039063.070312-115.933594 51.96875-116.007813 116.007812zm116.007813-100.007812c55.234375 0 100.007813 44.773437 100.007813 100.007812s-44.773438 100.007812-100.007813 100.007812-100.007813-44.773437-100.007813-100.007812c.0625-55.207031 44.800782-99.945312 100.007813-100.007812zm0 0')
+									path(d='m375.648438 358.230469-62.667969 29.609375c-8.652344-16.09375-25.25-26.335938-43.515625-26.851563l-57.851563-1.589843c-9.160156-.261719-18.148437-2.582032-26.292969-6.789063l-5.886718-3.050781c-30.140625-15.710938-66.066406-15.671875-96.175782.101562l.367188-13.335937c.121094-4.417969-3.359375-8.097657-7.777344-8.21875l-63.4375-1.746094c-4.417968-.121094-8.09375 3.359375-8.214844 7.777344l-3.832031 139.210937c-.121093 4.417969 3.359375 8.097656 7.777344 8.21875l63.4375 1.746094h.21875c4.335937 0 7.882813-3.449219 8-7.78125l.183594-6.660156 16.480469-8.824219c6.46875-3.480469 14.03125-4.308594 21.097656-2.308594l98.414062 27.621094c.171875.050781.34375.089844.519532.128906 7.113281 1.488281 14.363281 2.234375 21.628906 2.230469 15.390625.007812 30.601562-3.308594 44.589844-9.730469.34375-.15625.675781-.339843.992187-.546875l142.691406-92.296875c3.554688-2.300781 4.703125-6.96875 2.621094-10.65625-10.59375-18.796875-34.089844-25.957031-53.367187-16.257812zm-359.070313 107.5625 3.390625-123.21875 47.441406 1.304687-3.390625 123.222656zm258.925781-2.09375c-17.378906 7.84375-36.789062 10.007812-55.46875 6.191406l-98.148437-27.550781c-11.046875-3.121094-22.871094-1.828125-32.976563 3.605468l-8.421875 4.511719 2.253907-81.925781c26.6875-17.75 60.914062-19.574219 89.335937-4.765625l5.886719 3.050781c10.289062 5.3125 21.636718 8.242188 33.210937 8.578125l57.855469 1.589844c16.25.46875 30.050781 12.039063 33.347656 27.960937l-86.175781-2.378906c-4.417969-.121094-8.09375 3.363282-8.21875 7.777344-.121094 4.417969 3.363281 8.097656 7.777344 8.21875l95.101562 2.617188h.222657c4.332031-.003907 7.875-3.453126 7.992187-7.78125.097656-3.476563-.160156-6.957032-.773437-10.378907l64.277343-30.371093c.0625-.027344.125-.058594.1875-.089844 9.117188-4.613282 20.140625-3.070313 27.640625 3.871094zm0 0')
+									path(d='m228.203125 84v-76c0-4.417969-3.582031-8-8-8s-8 3.582031-8 8v76c0 4.417969 3.582031 8 8 8s8-3.582031 8-8zm0 0')
+									path(d='m288.203125 84v-36c0-4.417969-3.582031-8-8-8s-8 3.582031-8 8v36c0 4.417969 3.582031 8 8 8s8-3.582031 8-8zm0 0')
+									path(d='m168.203125 84v-36c0-4.417969-3.582031-8-8-8s-8 3.582031-8 8v36c0 4.417969 3.582031 8 8 8s8-3.582031 8-8zm0 0')
+							.item-text-content
+								.progress-title
+									p Свыше
+										span  3
+										|  млн.руб
+								.progress-subtitle
+									| Наши&nbsp;клиенты&nbsp;уже
+									br
+									| сэкономили на отоплении
+						.achievements-item
+							.item-img-content
+								svg(height='479pt' viewbox='0 0 479 479.84995' width='479pt' xmlns='http://www.w3.org/2000/svg')
+									path(d='m293.773438 195.351562-72.097657 68.097657-34.601562-35.597657c-3.835938-3.949218-10.152344-4.039062-14.097657-.203124-3.949218 3.839843-4.039062 10.152343-.203124 14.101562l41.5 42.601562c3.855468 3.878907 10.085937 4.011719 14.101562.296876l79.300781-74.796876c1.925781-1.816406 3.050781-4.324218 3.125-6.96875.074219-2.644531-.90625-5.210937-2.726562-7.132812-3.859375-4.011719-10.222657-4.1875-14.300781-.398438zm0 0')
+									path(d='m240.273438 90.550781c-82.398438 0-149.398438 67-149.398438 149.398438 0 82.402343 67 149.402343 149.398438 149.402343 82.402343 0 149.402343-67 149.402343-149.402343 0-82.398438-67-149.398438-149.402343-149.398438zm0 278.800781c-71.398438 0-129.398438-58.101562-129.398438-129.402343s58-129.398438 129.398438-129.398438c71.46875 0 129.402343 57.933594 129.402343 129.398438 0 71.464843-57.933593 129.402343-129.402343 129.402343zm0 0')
+									path(d='m445.875 184.949219 3.300781-59.300781c.230469-3.980469-1.933593-7.71875-5.5-9.5l-52.800781-26.699219-26.699219-52.800781c-1.816406-3.535157-5.53125-5.6875-9.5-5.5l-59.402343 3.203124-49.5-32.703124c-3.335938-2.199219-7.660157-2.199219-11 0l-49.5 32.703124-59.296876-3.300781c-3.984374-.234375-7.71875 1.929688-9.5 5.5l-26.703124 52.800781-52.796876 26.699219c-3.539062 1.8125-5.6875 5.527344-5.5 9.5l3.296876 59.300781-32.699219 49.5c-2.199219 3.335938-2.199219 7.660157 0 11l32.601562 49.597657-3.300781 59.300781c-.230469 3.980469 1.929688 7.71875 5.5 9.5l52.800781 26.699219 26.699219 52.800781c1.8125 3.539062 5.527344 5.6875 9.5 5.5l59.300781-3.300781 49.5 32.699219c3.316407 2.269531 7.683594 2.269531 11 0l49.5-32.699219 59.300781 3.300781c3.980469.230469 7.714844-1.933594 9.5-5.5l26.699219-52.800781 52.800781-26.699219c3.535157-1.816406 5.6875-5.527344 5.5-9.5l-3.300781-59.300781 32.699219-49.5c2.199219-3.335938 2.199219-7.664063 0-11zm-18.601562 101.800781c-1.21875 1.789062-1.785157 3.941406-1.597657 6.101562l3.097657 56.097657-49.898438 25.199219c-1.902344.953124-3.445312 2.5-4.398438 4.402343l-25.203124 49.898438-56.097657-3.097657c-2.148437-.078124-4.269531.476563-6.101562 1.597657l-46.800781 30.902343-46.796876-30.902343c-1.625-1.097657-3.539062-1.691407-5.5-1.699219h-.5l-56.101562 3.101562-25.199219-49.902343c-.953125-1.902344-2.496093-3.445313-4.402343-4.398438l-50-25.101562 3.101562-56.097657c.078125-2.148437-.480469-4.269531-1.601562-6.101562l-30.898438-46.800781 30.898438-46.800781c1.222656-1.785157 1.789062-3.941407 1.601562-6.097657l-3.101562-56.101562 49.902343-25.199219c1.902344-.953125 3.445313-2.496094 4.398438-4.398438l25.199219-49.902343 56.101562 3.101562c2.144531.074219 4.265625-.480469 6.101562-1.601562l46.796876-30.898438 46.800781 30.898438c1.789062 1.222656 3.945312 1.789062 6.101562 1.601562l56.097657-3.101562 25.203124 49.902343c.953126 1.902344 2.496094 3.445313 4.398438 4.398438l49.898438 25.199219-3.097657 56.101562c-.078125 2.144531.480469 4.265625 1.597657 6.097657l30.902343 46.800781zm0 0')
+							.item-text-content
+								.item-text-content
+									.progress-title
+										p
+											span 5
+											| &nbsp;лет
+									.progress-subtitle
+										| Гарантия
+		.container-lending-checklist
+			section.container-checklist
+				.container-checklist-content
+					.checklist-title
+						h2 Почему частные и юридические лица выбирают сотрудничество с нами?
+					.checklist-content
+						.checklist-item
+							.item-title
+								svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+									path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+								p Окна по ценам от производителя
+							.item-text Мы поставляем качественные материалы в минимальные сроки.
+						.checklist-item
+							.item-title
+								svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+									path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+									p Большой выбор ПВХ-окон
+							.item-text Наши клиентам мы можем предложить пластиковые окна в различном исполнении и с разнообразным декором.
+						.checklist-item
+							.item-title
+								svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+									path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+								p Все комплектующие в одном месте
+							.item-text Мы не только продаем пластиковые окна, но и их элементы: подоконники, фурнитуру, откосы. Оригинальные комплектующие гарантируют долгий срок службы изделия.
+						.checklist-item
+							.item-title
+								svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+									path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+								p Высокое качество
+							.item-text Надежность и долговечность изделий подтверждается сертификатами качества.
+						.checklist-item
+							.item-title
+								svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+									path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+								p Выгодные условия покупки
+							.item-text У нас регулярно появляются специальные предложения и акции. А еще мы предоставляем беспроцентную рассрочку на 6 месяцев.
+						.checklist-item
+							.item-title
+								svg.svg-inline--fa.fa-check-circle.fa-w-16(aria-hidden='true' focusable='false' data-prefix='far' data-icon='check-circle' role='img' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 512 512')
+									path(fill='currentColor' d='M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z')
+								p Быстрое изготовление и качественный монтаж
+							.item-text Изготавливаем профиль в течение 5-6 рабочих дней. На отделку и установку уходит 1–2 дня. У нас в штате работают только профессиональные монтажники. Мы используем только качественные инструменты.  Заказав ПВХ-окна в «KalininHome», Вы можете быть уверены, что не придется их обслуживать по гарантии. Мы выполняем современные монтажные требования в полном объеме. Наши специалисты могут гарантировать: повреждения откосов и стен при проводимых ими демонтажных работах минимальны.
+		.container-lending-advantages_of_working
+			section.container-advantages_of_working
+				figure
+					svg(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 64 64' width='512' height='512')
+						g#Consult-Talk
+							rect(x='16' y='25' width='2' height='2')
+							rect(x='26' y='25' width='2' height='2')
+							path(d='M61.142,36.01l-3.907-.558a14,14,0,0,0-.657-1.6L58.942,30.7a1,1,0,0,0-.093-1.307l-4.243-4.243A.989.989,0,0,0,54,24.867V15.241A8,8,0,0,0,57,9a7.917,7.917,0,0,0-4.573-7.224A1,1,0,0,0,51,2.68v5.6l-2,.667-2-.667V2.68a1,1,0,0,0-1.427-.9A7.917,7.917,0,0,0,41,9a8,8,0,0,0,3,6.241V22H41a1,1,0,0,0-.99.858l-.647,4.529,1.98.283L41.867,24h4.266l.524,3.67a1,1,0,0,0,.71.818,11.939,11.939,0,0,1,2.4.987,1,1,0,0,0,1.081-.077l2.961-2.22,3.016,3.016L54.6,33.155a1,1,0,0,0-.077,1.081,11.939,11.939,0,0,1,.987,2.4,1,1,0,0,0,.818.71l3.67.524v4.266l-3.67.524a1,1,0,0,0-.818.71,11.939,11.939,0,0,1-.987,2.4,1,1,0,0,0,.077,1.081l2.22,2.961-3.016,3.016L50.845,50.6a1,1,0,0,0-1.081-.077,11.939,11.939,0,0,1-2.4.987,1,1,0,0,0-.71.818L46.133,56H42V51.771a11.1,11.1,0,0,0-.45-3.121,9.11,9.11,0,1,0-6.394-7.062c-.024-.01-.047-.022-.071-.031L27,38.323V36.786A11.089,11.089,0,0,0,30.479,34H33a3,3,0,0,0,3-3V28.816A3,3,0,0,0,38,26V23a3,3,0,0,0-2-2.816V19A14,14,0,0,0,8,19v1.184A3,3,0,0,0,6,23v3a3,3,0,0,0,3,3h2c.064,0,.126-.01.189-.014A11.023,11.023,0,0,0,17,36.786v1.537L8.915,41.557A10.949,10.949,0,0,0,2,51.771V61a1,1,0,0,0,1,1H41a1,1,0,0,0,1-1V58h5a1,1,0,0,0,.99-.858l.558-3.907a14,14,0,0,0,1.6-.657L53.3,54.942a1,1,0,0,0,1.307-.093l4.243-4.243a1,1,0,0,0,.093-1.307l-2.364-3.152a14,14,0,0,0,.657-1.6l3.907-.558A1,1,0,0,0,62,43V37A1,1,0,0,0,61.142,36.01Zm-11-8.588c-.047-.023-.1-.038-.147-.06V15H48v7.93l-.01-.072A1,1,0,0,0,47,22H46V14.74a1,1,0,0,0-.429-.821A6,6,0,0,1,45,4.522V9a1,1,0,0,0,.684.949l3,1a1,1,0,0,0,.632,0l3-1A1,1,0,0,0,53,9V4.522a6,6,0,0,1-.571,9.4A1,1,0,0,0,52,14.74V26.033ZM37,40a7.05,7.05,0,1,1,3.333,5.941,10.916,10.916,0,0,0-2.611-2.877A6.836,6.836,0,0,1,37,40Zm-4-8H31.786a10.9,10.9,0,0,0,1.025-3.014c.063,0,.125.014.189.014h1v2A1,1,0,0,1,33,32ZM31,21a3.015,3.015,0,0,1-2.4-1.2l-1.8-2.4a1,1,0,0,0-.674-.392,1.011,1.011,0,0,0-.751.211L22.019,19.9A5.018,5.018,0,0,1,18.9,21H13V20a9,9,0,0,1,18,0Zm5,5a1,1,0,0,1-1,1H33V22h2a1,1,0,0,1,1,1ZM22,7A12.013,12.013,0,0,1,34,19v1H33a11,11,0,0,0-22,0H10V19A12.013,12.013,0,0,1,22,7ZM9,27a1,1,0,0,1-1-1V23a1,1,0,0,1,1-1h2v5Zm4,0V23h5.9a7.024,7.024,0,0,0,4.372-1.534l2.551-2.041L27,21a5.025,5.025,0,0,0,4,2v4a8.947,8.947,0,0,1-1.522,5H22v2h5.644A8.991,8.991,0,0,1,13,27Zm9,11a10.966,10.966,0,0,0,3-.426V39a3,3,0,0,1-6,0V37.574A10.966,10.966,0,0,0,22,38ZM40,60H34V49H32V60H12V49H10V60H4V51.771a8.958,8.958,0,0,1,5.658-8.357l7.563-3.025a4.968,4.968,0,0,0,9.558,0l7.563,3.025A8.958,8.958,0,0,1,40,51.771Z')
+							rect(x='43' y='26' width='2' height='2')
+							rect(x='43' y='52' width='2' height='2')
+							rect(x='52.192' y='48.192' width='2' height='2' transform='translate(-19.205 52.021) rotate(-45)')
+							rect(x='56' y='39' width='2' height='2')
+							rect(x='52.192' y='29.808' width='2' height='2' transform='translate(-6.205 46.636) rotate(-45)')
+					figcaption
+						.item-title Консультация
+						.item-text Дадим ответы на все интересующие Вас вопросы, поможем с выбором.
+				figure
+					svg(height='512' viewbox='0 0 60 51' width='512' xmlns='http://www.w3.org/2000/svg')
+						g#Page-1(fill='none' fill-rule='evenodd')
+							g#039---Tape-Measure(fill='rgb(0,0,0)' fill-rule='nonzero' transform='translate(0 -1)')
+								path#Shape(d='m18.118 12.476c.3539356-.0796449.636976-.3447323.7396106-.6926975.1026346-.3479653.0087636-.7242251-.2452935-.9832013-.2540571-.2589763-.6284478-.3600447-.9783171-.2641012-8.01876226 1.9952407-13.64403736 9.200742-13.634 17.464 0 .5522847.44771525 1 1 1s1-.4477153 1-1c-.00885335-7.3448226 4.9907219-13.7496258 12.118-15.524z')
+								path#Shape(d='m57 34h-13v-6c.0081891-4.4510026-1.3442204-8.7981827-3.876-12.459l.543-6.765c.0787087-.97540828-.3232644-1.92790149-1.077-2.552-2.8907887-2.35295862-6.2282223-4.09600318-9.811-5.124-1.0234151-.28207876-2.1196033.00216053-2.877.746l-4.308 4.183c-.194-.005-.394-.029-.594-.029-12.14455323.01377716-21.98622284 9.8554468-22 22v18c.00330738 3.3123376 2.68766243 5.9966926 6 6h31c3.4765822-.0040745 6.4233474-2.5590733 6.92-6h9.08v3c0 1.6568542 1.3431458 3 3 3h1c1.6568542 0 3-1.3431458 3-3v-12c0-1.6568542-1.3431458-3-3-3zm-28.7-30.726c.2428734-.24526973.5984424-.34179223.932-.253 3.3207684.95453885 6.4141339 2.57095329 9.094 4.752.245675.20971996.3749187.52519386.347.847l-.373 4.642c-.248-.273-.481-.557-.743-.819-3.3331875-3.3401926-7.6594925-5.50966085-12.33-6.183zm-16.3 46.726h-6c-2.209139 0-4-1.790861-4-4v-9c0-.5522847.44771525-1 1-1h.769c.3653792.0000981.70161799.1994643.877.52 2.01628082 3.7533894 5.08584433 6.8354662 8.831 8.867.3226393.172101.5238384.5083305.523.874v2.739c0 .5522847-.4477153 1-1 1zm30-5c-.0033061 2.7600532-2.2399468 4.9966939-5 5h-21.184c.1184378-.320257.1806856-.6585603.184-1v-2.739c.0054617-1.116077-.6158642-2.1408011-1.608-2.652-3.3782065-1.8649037-6.15157266-4.6583968-7.992-8.05-.52640942-.9612207-1.53507476-1.5589057-2.631-1.559h-.769c-.34143967.0033144-.67974302.0655622-1 .184v-6.184c0-11.045695 8.954305-20 20-20s20 8.954305 20 20zm2-1v-8h3v2c0 .5522847.4477153 1 1 1s1-.4477153 1-1v-2h4v8zm14 5c0 .5522847-.4477153 1-1 1h-1c-.5522847 0-1-.4477153-1-1v-13h2c.5522847 0 1 .4477153 1 1z')
+								circle#Oval(cx='22' cy='11' r='1')
+								path#Shape(d='m32 44c0 2.209139 1.790861 4 4 4s4-1.790861 4-4-1.790861-4-4-4-4 1.790861-4 4zm6 0c0 1.1045695-.8954305 2-2 2s-2-.8954305-2-2 .8954305-2 2-2 2 .8954305 2 2z')
+								path#Shape(d='m22 18c-6.0751322 0-11 4.9248678-11 11s4.9248678 11 11 11 11-4.9248678 11-11c-.0071635-6.0721626-4.9278374-10.9928365-11-11zm0 20c-4.9705627 0-9-4.0294373-9-9s4.0294373-9 9-9 9 4.0294373 9 9c-.0055111 4.9682782-4.0317218 8.9944889-9 9z')
+					figcaption
+						.item-title Замер
+						.item-text Наш специалист выедет на объект в удобное для Вас время и подберет оптимальный вариант для Вашего помещения.
+				figure
+					svg#Capa_1(enable-background='new 0 0 512 512' height='512' viewbox='0 0 512 512' width='512' xmlns='http://www.w3.org/2000/svg')
+						g
+							g
+								path(d='m334.954 137.804h-245.189c-4.16 0-7.532 3.372-7.532 7.532s3.372 7.532 7.532 7.532h245.19c4.16 0 7.532-3.372 7.532-7.532s-3.373-7.532-7.533-7.532z')
+								path(d='m89.765 100.621h122.594c4.16 0 7.532-3.372 7.532-7.532s-3.372-7.532-7.532-7.532h-122.594c-4.16 0-7.532 3.372-7.532 7.532 0 4.161 3.372 7.532 7.532 7.532z')
+								path(d='m334.954 184.096h-245.189c-4.16 0-7.532 3.372-7.532 7.532s3.372 7.532 7.532 7.532h245.19c4.16 0 7.532-3.372 7.532-7.532-.001-4.16-3.373-7.532-7.533-7.532z')
+								path(d='m145.618 459.668h-78.467c-12.879 0-23.358-10.478-23.358-23.357v-397.89c0-12.879 10.479-23.358 23.358-23.358h226.056c.73 0 1.449.067 2.16.163v46.974c0 21.186 17.236 38.421 38.421 38.421h46.973c.097.712.163 1.431.163 2.161v128.261c0 4.16 3.372 7.532 7.532 7.532s7.532-3.372 7.532-7.532v-128.26c0-8.262-3.218-16.03-9.06-21.873l-71.85-71.85c-5.842-5.842-13.609-9.06-21.871-9.06h-226.056c-21.186 0-38.421 17.236-38.421 38.421v397.89c0 21.185 17.236 38.42 38.421 38.42h78.467c4.16 0 7.532-3.372 7.532-7.532s-3.372-7.531-7.532-7.531zm224.655-374.11h-36.484c-12.879 0-23.358-10.479-23.358-23.358v-36.484z')
+								path(d='m480.958 368.729-63.818-107.72c-4.651-7.854-14.773-10.45-22.631-5.795l-15.523 9.197c-12.049 7.138-17.142 21.583-13.005 34.384-5.23 1.895-10.964 1.865-16.244-.176-12.256-3.856-21.574-11.613-36.963-7.721-26.13 6.653-25.336 6.32-27.7 7.13-15.3-8.711-24.497-11.303-40.739-5.02l-14.478 5.597c-6.703 2.59-14.089 1.976-20.283-1.694l-3.951-2.329c1.928-11.552-3.195-23.743-14.043-30.169 0 0 0 0-.001-.001l-15.522-9.196c-7.836-4.641-17.988-2.043-22.63 5.793l-63.82 107.721c-4.651 7.852-2.063 17.977 5.793 22.63l15.522 9.196c4.697 2.783 9.859 4.106 14.959 4.106 5.687 0 11.294-1.648 16.088-4.752l3.235 1.909-6.83 9.513c-8.139 11.338-5.553 27.104 5.787 35.244 5.244 3.764 11.832 5.483 18.645 4.413 1.081 6.319 4.543 12.233 10.149 16.259 5.265 3.78 11.823 5.501 18.648 4.426 1.084 6.314 4.544 12.223 10.147 16.246 7.53 5.405 16.892 6.03 24.693 2.698 1.707 4.434 4.674 8.438 8.813 11.41 10.808 7.757 25.696 5.734 34.094-4.316l18.15 10.752c12.003 7.113 27.49 3.16 34.607-8.857 1.82-3.072 2.949-6.42 3.362-9.861l.041.025c11.985 7.098 27.507 3.124 34.607-8.858 2.056-3.471 3.183-7.236 3.457-11.009 10.564 2.656 22.077-1.781 27.907-11.621 1.913-3.228 3.022-6.715 3.387-10.224 11.322 4.443 24.555.149 30.949-10.643 3.439-5.805 4.412-12.601 2.739-19.138-.957-3.74-2.717-7.135-5.133-10.002l10.004-5.845c8.463 3.474 18.121 2.918 26.215-1.876l15.52-9.196c7.856-4.65 10.451-14.773 5.796-22.63zm-362.358 18.868-15.522-9.197c-.69-.409-.919-1.303-.511-1.993l63.82-107.723c.411-.693 1.308-.918 1.994-.51l15.521 9.195c6.897 4.087 9.055 12.933 5.043 19.704l-50.641 85.48c-4.042 6.824-12.88 9.085-19.704 5.044zm34.345 46.742c-4.574-3.284-5.62-9.646-2.334-14.222l10.039-13.984c3.198-4.455 9.571-5.674 14.222-2.335 4.565 3.277 5.612 9.656 2.336 14.221l-10.04 13.984c-3.277 4.567-9.66 5.611-14.223 2.336zm28.795 20.673c-4.565-3.278-5.612-9.659-2.335-14.223l10.039-13.983s0 0 0-.001c0 0 0-.001.001-.001l11.079-15.432c1.588-2.211 3.941-3.673 6.627-4.113.558-.092 1.117-.137 1.672-.137 2.114 0 4.171.658 5.923 1.915 2.21 1.588 3.672 3.94 4.112 6.626.441 2.687-.19 5.384-1.778 7.595l-21.119 29.418c-3.282 4.575-9.645 5.622-14.221 2.336zm28.795 20.671c-4.563-3.276-5.611-9.652-2.34-14.216.001-.002.003-.004.004-.006l21.119-29.417c3.275-4.564 9.659-5.612 14.222-2.336 4.565 3.277 5.612 9.657 2.335 14.222l-9.383 13.071s0 0-.001.001l-11.735 16.346c-3.277 4.565-9.655 5.614-14.221 2.335zm33.506 14.108c-4.562-3.276-5.611-9.649-2.342-14.214l7.029-9.79c3.276-4.566 9.659-5.61 14.222-2.335 4.564 3.276 5.612 9.657 2.335 14.222l-7.023 9.781c-3.276 4.566-9.658 5.614-14.221 2.336zm168.819-60.052c-2.866 4.837-9.13 6.441-13.968 3.576-8.192-4.853-61.036-36.16-66.67-39.498-3.58-2.12-8.199-.939-10.319 2.64s-.939 8.199 2.64 10.319l50.403 29.861.001.001c4.839 2.866 6.453 9.111 3.576 13.969-2.867 4.839-9.134 6.44-13.97 3.577-18.642-11.044-33.779-20.012-50.43-29.877-3.581-2.12-8.199-.939-10.319 2.64s-.939 8.199 2.64 10.319l37.138 22.002.008.005c4.842 2.875 6.44 9.117 3.569 13.965-2.867 4.839-9.132 6.442-13.971 3.576l-19.931-11.807c-.002-.001-.005-.002-.007-.004-.002-.001-.004-.002-.006-.003l-14.545-8.618c-3.58-2.121-8.199-.94-10.319 2.64-2.12 3.579-.939 8.199 2.64 10.319l14.548 8.619c.002.001.004.003.006.004 4.839 2.866 6.453 9.11 3.576 13.968-2.867 4.839-9.132 6.442-13.971 3.576l-16.971-10.053c7.275-11.226 4.508-26.354-6.473-34.236-3.225-2.314-6.816-3.755-10.489-4.374 3.896-10.417.537-22.579-8.922-29.369-5.6-4.022-12.305-5.411-18.633-4.419-1.126-6.585-4.727-12.353-10.16-16.252-10.218-7.333-24.104-5.924-32.681 2.753-1.743-3.061-4.149-5.807-7.193-7.992-8.491-6.094-19.515-6.151-27.921-1.018l-3.451-2.037 47.37-79.959 2.255 1.33c9.96 5.9 22.114 7.13 33.378 2.774l14.478-5.597c8.285-3.202 12.854-3.411 21.049.456-5.362 6.024-8.545 13.933-8.545 22.457v33.395c0 8.87 7.211 16.091 16.074 16.097h.022c8.89 0 17.25-3.461 23.539-9.746 3.666-3.664 6.372-8.032 7.994-12.8 9.725 5.759 90.072 53.338 99.387 58.857 2.343 1.388 4.005 3.605 4.68 6.243.675 2.635.282 5.378-1.106 7.721zm54.628-51.339-15.523 9.197c-6.824 4.04-15.662 1.777-19.702-5.043l-23.736-40.065c-2.121-3.579-6.743-4.76-10.319-2.642-3.579 2.12-4.761 6.74-2.642 10.319l23.736 40.066c.447.754.932 1.471 1.434 2.17l-6.599 3.855c-1.334.79-2.617 1.66-3.844 2.605l-102.323-60.595c-5.013-2.967-11.369.65-11.369 6.48-.079.45.778 8.192-5.345 14.313-3.444 3.441-8.022 5.337-12.891 5.337-.004 0-.008 0-.012 0-.563 0-1.021-.464-1.021-1.034v-33.395c0-8.724 6.002-16.084 14.119-18.139l25.016-6.331c9.077-2.294 14.208 2.553 27.799 7.153 9.435 3.65 19.694 3.425 28.8-.464l4.546 7.674c2.121 3.581 6.741 4.761 10.319 2.642 3.579-2.12 4.761-6.74 2.642-10.319l-8.954-15.113c-4.051-6.838-1.794-15.65 5.043-19.703l15.522-9.195c.678-.403 1.575-.197 1.995.511l63.818 107.721c.412.695.185 1.584-.509 1.995z')
+					figcaption
+						.item-title Договор
+						.item-text Оформим документы для дальнейшего сотрудничества.
+				figure
+					svg(height='512' viewbox='0 0 512 512' width='512' xmlns='http://www.w3.org/2000/svg')
+						g#Line_stroke_cut_Ex(data-name='Line stroke cut Ex')
+							g
+								path(d='m496 168v-54a18.021 18.021 0 0 0 -18-18h-284a18.021 18.021 0 0 0 -18 18v14h-18.648a17.965 17.965 0 0 0 -14.977 8.016l-26.775 40.164a38.134 38.134 0 0 0 -27.054 15.469l-15.016 20.645 12.94 9.412 15.014-20.645a22.066 22.066 0 0 1 17.793-9.061h56.723v72h-120.29l22.76-31.294-12.94-9.412-30.73 42.26a28.049 28.049 0 0 0 -18.8 26.446v98a18.021 18.021 0 0 0 18 18h14a56 56 0 0 0 112 0h192a56 56 0 0 0 112 0h14a18.021 18.021 0 0 0 18-18v-206h-16v136h-288v-206a2 2 0 0 1 2-2h284a2 2 0 0 1 2 2v54zm-361.052 8 20.74-31.109a2 2 0 0 1 1.664-.891h18.648v32zm-102.948 116a12.013 12.013 0 0 1 12-12h12v36a12.013 12.013 0 0 1 -12 12h-12zm72 156a40 40 0 1 1 40-40 40.045 40.045 0 0 1 -40 40zm53.672-56a56.009 56.009 0 0 0 -107.344 0h-16.328a2 2 0 0 1 -2-2v-46h12a28.032 28.032 0 0 0 28-28v-36h104v112zm250.328 56a40 40 0 1 1 40-40 40.045 40.045 0 0 1 -40 40zm72-112v54a2 2 0 0 1 -2 2h-16.328a56.009 56.009 0 0 0 -107.344 0h-162.328v-56z')
+								path(d='m128 296h32v16h-32z')
+								path(d='m339.358 128.63a8 8 0 0 0 -6.516 0l-71.9 32.061a8 8 0 0 0 -4.645 8.551l5.994 38.05c.009.063.02.125.031.188a130.945 130.945 0 0 0 51.658 82.12l17.44 12.845a8 8 0 0 0 9.448.03l16.617-12.08a130.9 130.9 0 0 0 52.33-82.6c.012-.062.022-.124.032-.186l6.055-38.364a8 8 0 0 0 -4.644-8.554zm54.7 76.391a114.979 114.979 0 0 1 -45.981 72.429l-11.877 8.637-12.727-9.374a115 115 0 0 1 -45.387-72.005l-5.025-31.9 63.039-28.108 63.042 28.111z')
+								path(d='m309.666 202.341-11.313 11.313 24 24a8 8 0 0 0 11.313 0l48-48-11.313-11.313-42.344 42.343z')
+								path(d='m208 128h16v16h-16z')
+								path(d='m208 288h16v16h-16z')
+								path(d='m448 128h16v16h-16z')
+								path(d='m448 288h16v16h-16z')
+								path(d='m104 384a24 24 0 1 0 24 24 24.027 24.027 0 0 0 -24-24zm0 32a8 8 0 1 1 8-8 8.009 8.009 0 0 1 -8 8z')
+								path(d='m408 384a24 24 0 1 0 24 24 24.027 24.027 0 0 0 -24-24zm0 32a8 8 0 1 1 8-8 8.009 8.009 0 0 1 -8 8z')
+								path(d='m16 128h64v16h-64z')
+								path(d='m96 128h16v16h-16z')
+								path(d='m88 48h128v16h-128z')
+								path(d='m232 48h16v16h-16z')
+								path(d='m304 64h128v16h-128z')
+								path(d='m448 64h16v16h-16z')
+							g
+								path(d='m168 432h144v16h-144z')
+								path(d='m328 432h16v16h-16z')
+					figcaption
+						.item-title Доставка
+						.item-text Доставим Ваши окна в специальной защитной упаковке и специальным транспортом.
+				figure
+					svg(height='512pt' viewbox='-31 0 511 512' width='512pt' xmlns='http://www.w3.org/2000/svg')
+						path(d='m448.769531 418.109375v-27.484375c0-33.820312-17.046875-57.777344-51.976562-72.808594-21.53125-9.265625-33.332031-8.878906-116.902344-25.871094v-23.003906c25.0625-16.898437 38.082031-40.941406 40.6875-67.320312 12.5625-.511719 22.621094-10.890625 22.621094-23.570313v-17.832031c0-.1875-.003907-.375-.007813-.5625 8.261719-3.277344 14.121094-11.347656 14.121094-20.765625 0-11.238281-8.351562-20.566406-19.171875-22.101563v-7.894531c0-60.140625-48.753906-108.894531-108.898437-108.894531h-9.214844c-60.140625 0-108.894532 48.753906-108.894532 108.894531v7.894531c-10.824218 1.535157-19.171874 10.863282-19.171874 22.101563 0 9.417969 5.855468 17.488281 14.117187 20.765625-.003906.1875-.003906.375-.003906.5625v17.832031c0 12.679688 10.058593 23.058594 22.617187 23.570313 2.601563 26.324218 15.496094 50.332031 40.6875 67.316406v23.007812c-83.683594 17.015626-95.347656 16.597657-116.898437 25.871094-34.933594 15.03125-51.980469 38.988282-51.980469 72.804688v87.441406c0 18.746094 15.195312 33.9375 33.9375 33.9375h380.398438c18.742187 0 33.9375-15.191406 33.9375-33.933594v-29.949218c0-9.917969-15.003907-9.933594-15.003907 0v29.949218c0 10.453125-8.476562 18.929688-18.933593 18.929688h-37.417969c-2.027344-53.363282 5.863281-75.355469-10.984375-105.148438-13.542969-23.953125-7.722656-43.441406-9.121094-69.5625 3.007812 1.398438 76.457031 6.59375 76.457031 68.335938v27.488281c0 9.917969 15 9.933594 15 0zm-150.378906-107.285156c-27.757813 40.351562-27.117187 40.171875-31.835937 43.515625-3.445313 2.4375-6.898438 3.792968-11.355469 1.121094l-15.164063-9.09375c13.429688-7.707032 33.277344-21.707032 38.539063-39.394532zm-211.578125 136.722656h70.640625l-.003906 19.503906h-70.621094zm.03125 34.507813h73.859375c6.476563 0 11.746094-5.269532 11.746094-11.746094-.855469-22.699219 2.253906-28.636719-3.429688-34.324219-6.039062-6.039063-7.195312-2.296875-82.214843-3.441406.230468-11.691407 3.351562-23.152344 9.097656-33.3125 16.214844-28.679688 9.480468-52.125 11.0625-79.863281l27.867187-5.421876c5.78125 8.488282 46.925781 68.195313 66.949219 96.777344 10.042969 14.335938 15.351562 31.167969 15.355469 48.675782v37.597656h-130.28125zm122.390625-135.683594-15.164063 9.089844c-6.460937 3.878906-13.382812-1.398438-17.636718-7.5625-10.28125-14.886719-19.640625-28.480469-25.550782-37.074219l19.816407-3.851563c5.257812 17.6875 25.109375 31.6875 38.535156 39.398438zm15.402344 75.007812c-2.78125-6.738281-6.3125-13.191406-10.570313-19.265625-6.246094-8.921875-13.652344-19.566406-21.261718-30.546875 7.917968-1.199218 10.722656-4.835937 31.832031-16.9375 20.996093 12.039063 23.9375 15.742188 31.832031 16.9375-7.609375 10.980469-15.015625 21.625-21.265625 30.546875-4.253906 6.074219-7.789063 12.527344-10.566406 19.265625zm48.976562-395.214844c3.804688 2.050782 7.453125 4.351563 10.921875 6.886719v12.308594c-2.859375.761719-8.0625.761719-10.921875 0zm-43.515625-11.15625v53.359376c-2.863281.761718-8.0625.761718-10.921875 0v-53.359376c.71875-.007812 10.183594-.007812 10.921875 0zm-65.359375 18.042969c3.46875-2.535156 7.113281-4.835937 10.917969-6.886719v19.195313c-2.859375.761719-8.058594.761719-10.917969 0zm-15.003906 13.664063v1.34375c0 17.328125 40.925781 17.363281 40.925781 0v-28.351563c4.375-1.445312 8.886719-2.574219 13.511719-3.363281v54.722656c0 17.210938 40.929687 17.421875 40.929687 0v-54.722656c4.625.789062 9.136719 1.917969 13.507813 3.363281v28.351563c0 17.328125 40.929687 17.363281 40.929687 0v-1.34375c27.878907 31.480468 23.046876 66.550781 23.597657 69.851562h-197c.558593-3.339844-4.398438-38.242187 23.597656-69.851562zm-6.480469 147.265625c-.207031-9.675781-12.191406-7.003907-13.589844-7.339844-4.734374 0-8.585937-3.855469-8.585937-8.589844v-16.832031h31.953125c9.917969 0 9.929688-15.003906 0-15.003906h-38.746094c-4.039062 0-7.320312-3.285156-7.320312-7.324219 0-4.035156 3.28125-7.320313 7.320312-7.320313h220.703125c4.039063 0 7.320313 3.285157 7.320313 7.320313 0 4.039063-3.28125 7.324219-7.320313 7.324219h-151.953125c-9.917968 0-9.929687 15.003906 0 15.003906h145.160156v16.832031c0 4.734375-3.851562 8.589844-8.589843 8.589844-1.546875.371094-13.378907-2.304687-13.585938 7.339844-.988281 46.074219-39.863281 76.570312-81.382812 77.070312-41.398438-.5-80.394531-30.882812-81.382813-77.070312zm81.296875 92.074219h.167969c14.25-.160157 27.679688-3.085938 40.167969-8.726563v20.800781c0 8.117188-7.308594 17.902344-20.585938 27.554688-7.6875 5.585937-15.5 9.78125-19.664062 11.871094-4.167969-2.089844-11.980469-6.285157-19.667969-11.871094-13.273438-9.652344-20.585938-19.4375-20.585938-27.554688v-20.800781c12.488282 5.640625 25.921876 8.566406 40.167969 8.726563zm-209.046875 192.011718v-87.441406c0-32.746094 18.503906-52.84375 59.988282-65.136719l16.46875-3.203125c-1.398438 26.167969 4.417968 45.621094-9.121094 69.5625-16.878906 29.851563-8.960938 51.90625-10.988282 105.148438h-37.414062c-10.441406 0-18.933594-8.492188-18.933594-18.929688zm346.9375-11.015625h-70.652344v-19.503906h70.667969zm-9.070312-67.820312c5.746094 10.160156 8.867187 21.621093 9.097656 33.3125h-73.933594c-6.476562 0-11.746094 5.269531-11.746094 11.746093v26.015626c0 6.476562 5.269532 11.75 11.746094 11.75h73.894532l-.015626 14.941406h-130.277343v-37.597656c0-17.503907 5.3125-34.339844 15.355469-48.675782 19.777343-28.234375 61.4375-88.6875 66.949218-96.773437l27.867188 5.417969c1.59375 27.898437-5.15625 51.183593 11.0625 79.863281zm0 0')
+					figcaption
+						.item-title Монтаж
+						.item-text Демонтаж старых окон и установка новой конструкции.
+		.container-lending-form
+			section.container-form
+				.triangle-block-1
+				.triangle-block-2
+				.triangle-block-3
+				.container-form-title
+				.container-form-content
+					form#form3(method='POST')
+						h2#modal1Title3 Оформите заявку на замер ваших окон!
+						input.putName(type='text' name='name' placeholder='Имя' pattern='^[А-Яа-яЁё\s]+$' required='')
+						input#phone3.putPhone(name='phone' type='tel' placeholder='Телефон' required='')
+						//input.mail(name='mail' type='email' placeholder='Ваш Email' pattern='([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})')
+						textarea.textarea(name='textarea' placeholder='Адрес' required='')
+						input#butdis3.btn(type='submit' name='submit' value='ОТПРАВИТЬ')
+						input.formInfo(name='formInfo' type='hidden' value='')
+						input(type='hidden' name='formData' value='Заявка с сайта')
+		#exampleModalCenteredScrollable.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalCenteredScrollableTitle' style='display: none;' aria-hidden='true')
+			.modal-dialog.modal-dialog-centered.modal-dialog-scrollable
+				.modal-content
+					.modal-header
+						h5#exampleModalCenteredScrollableTitle.modal-title Получить консультацию
+						button.close(type='button' data-dismiss='modal' aria-label='Close')
+							span(aria-hidden='true') &times;
+					.modal-body
+						form#form(method='POST')
+							h2#modal1Title Оставьте заявку на обратный звонок и мы вам перезвоним
+							input.putName(type='text' name='name' placeholder='Ваше ФИО*' pattern='^[А-Яа-яЁё\s]+$' required='')
+							input#phone.putPhone(name='phone' type='tel' placeholder='Ваш телефон*' required='')
+							//input.mail(name='mail' type='email' placeholder='Ваш Email' pattern='([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})')
+							textarea.textarea(name='textarea' placeholder='Ваш вопрос*' required='')
+							input#butdis.btn(type='submit' name='submit' value='ОТПРАВИТЬ')
+							input.formInfo(name='formInfo' type='hidden' value='')
+							input(type='hidden' name='formData' value='Заявка с сайта')
+	script(type='text/javascript').
+		jQuery(document).ready(function () {
+		    jQuery(".eTimer").eTimer({
+						etType: 0,
+						etDate: "20.10.2020.0.0",
+						etTitleText: "",
+						etTitleSize: 20,
+						etShowSign: 1,
+						etSep: ":",
+						etFontFamily: "Trebuchet MS",
+						etTextColor: "white",
+						etPaddingTB: 15,
+						etPaddingLR: 15,
+						etBackground: "transparent",
+						etBorderSize: 0,
+						etBorderRadius: 0,
+						etBorderColor: "white",
+						etShadow: " 0px 0px 0px 0px transpanent",
+						etLastUnit: 4,
+						etNumberFontFamily: "Impact",
+						etNumberSize: 60,
+						etNumberColor: "#fbfbfb",
+						etNumberPaddingTB: 0,
+						etNumberPaddingLR: 15,
+						etNumberBackground: "transparent",
+						etNumberBorderSize: 0,
+						etNumberBorderRadius: 0,
+						etNumberBorderColor: "white",
+						etNumberShadow: "inset 0px 0px 0px 0px rgba(0, 0, 0, 0.5)"
+				});
+		});
